@@ -7,6 +7,9 @@ The application enables the user to make CRUD requests to the application facili
  
  The web-app runs on Node js backend with mySQL Database and uses Rest API for maing various requests.
  
+ The dump file for the databse has also been pushed to the repository. Make use of it for detailed analysis of the
+  project
+ 
  ## API Contracts
  
 ### ***POST /make_reservation***
@@ -295,3 +298,12 @@ Deletes a reservation with the help of reservation id
  - nodemon
  - body-parser
  
+ 
+ ### ***How to run the Application***
+ open the directory where you want to store the app and open the terminal.
+     
+ 1. Run `git clone https://github.com/samridhharshit/Mounty_Outdoor_adventures_Assignment.git`
+ 2. Run `npm install`
+ 3. Run `nodemon index.js`
+ 
+ ***END***
